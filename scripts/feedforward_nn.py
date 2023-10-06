@@ -4,6 +4,7 @@ from scripts.constants import *
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import pickle
+tf.disable_v2_behavior()
 
 n_nodes_hl1 = 500
 n_nodes_hl2 = 500
